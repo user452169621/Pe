@@ -19,16 +19,30 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (label1.Text == "2")
+            {
+                label1.Text = "DAETH TO HUMANS!";
+            }
+            else
             label1.Text = "2";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (label1.Text=="4" ){
+                label1.Text = "DAETH TO HUMANS!";
+            }
+            else
             label1.Text = "4";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (label1.Text == "19")
+            {
+                label1.Text = "DAETH TO HUMANS!";
+            }
+            else
             label1.Text = "19";
         }
     }
