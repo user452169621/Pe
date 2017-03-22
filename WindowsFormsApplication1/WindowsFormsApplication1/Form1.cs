@@ -45,5 +45,10 @@ namespace WindowsFormsApplication1
             else
             label1.Text = "19";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label1.Text = "Nyet";
+        }
     }
 }
